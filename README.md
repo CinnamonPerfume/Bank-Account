@@ -15,7 +15,7 @@ the separator (comma) is missing in the transaction description.
 If the program detects an error, it immediately stops asking for further input data, it prints out the error message and terminates. Thus, the program must validate input data as it reads them. Do not postpone the checks until the entire input is read. The error message shall be printed on the standard output (do not send it to the standard error output).
 
 Example runs of the program:
-
+<pre>
 Enter credit interest rate [%]:
 0.01
 Enter debet interest rate [%]:
@@ -51,3 +51,4 @@ Enter transactions:
 5, 2000
 0, 3000
 Invalid input.
+</pre>
