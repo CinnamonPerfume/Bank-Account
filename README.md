@@ -1,3 +1,5 @@
+Written: 20/10/2022
+
 Your task is to develop a program to compute the balance of a bank account. The program will have to process transactions (deposit/withdraw) and will compute account balance with respect to the given interest rates.
 
 We assume the bank denominates the account in Czech crowns (CZK). The bank allows its clients to deposit/withdraw money, however, at most one transaction may be done in a single day. Moreover, the bank is very friendly, it offers unlimited debet. Available balance is subject to credit interest rate, negative balance is subject to debet interest rate. The two interest rates may be different. The interest is computed every day. The credit/debet is always expressed in crowns and hallers (1/100 CZK). No fractions of hallers are allowed. All fractions are rounded to smaller absolute value (towards zero), i.e. credit/debet interest of 1.3499 CZK will be accounted as 1.34 CZK. The interest applies to the balance present at midnight, i.e., a transaction in a given day applies to the interest the next day.
